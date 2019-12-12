@@ -2,6 +2,9 @@
   "name": "myapp",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js --env development"
+  },
   "dependencies": {
     "async": "latest",
     "basic-auth-connect": "latest",
@@ -38,7 +41,7 @@
     "numeral": "latest",
     "passport": "latest",
     "passport-local": "latest",
-    "pm2": "latest",
+    "pm2": "^4.2.1",
     "request": "latest",
     "serve-favicon": "~2.3.0",
     "simple-encryptor": "latest",
