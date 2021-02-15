@@ -18,7 +18,7 @@
     "cors": "^2.8.5",
     "dateformat": "latest",
     "debug": "~2.2.0",
-    "ejs": "~2.3.3",
+    "ejs": "~2.5.5",
     "express": "~4.13.1",
     "express-mailer": "^0.3.0",
     "express-promise-router": "^3.0.3",
